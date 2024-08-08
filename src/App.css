@@ -6,7 +6,7 @@
 
   color: #0f0f0f;
   background-color: #f6f6f6;
-
+  --width: 100%;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -14,11 +14,26 @@
   -webkit-text-size-adjust: 100%;
 }
 
+body,
+html,
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   margin: 0;
-  padding-top: 10vh;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  height: 100%;
+  width: 100%;
 }

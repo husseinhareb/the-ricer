@@ -1,7 +1,7 @@
 {
   "productName": "the-ricer",
   "version": "0.0.0",
-  "identifier": "com.tauri.dev",
+  "identifier": "com.tauri.the-ricer",
   "build": {
     "beforeDevCommand": "npm run dev",
     "devUrl": "http://localhost:1420",
@@ -12,8 +12,8 @@
     "windows": [
       {
         "title": "the-ricer",
-        "width": 800,
-        "height": 600
+        "width": 987,
+        "height": 610
       }
     ],
     "security": {
